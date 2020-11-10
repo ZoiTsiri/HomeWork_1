@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Επικοινωνία</title>
+</head>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<body>
+    <form action=""></form>
+    <fieldset id="fieldsetup">
+        <legend>
+            <h1 class="content-title">Contact Us</h1>
+        </legend>
+
+        <table>
+            <tr>
+                <td>
+                    <label>First name:</label>
+                </td>
+                <td>
+                    <input type="text" name="onoma" placeholder="Name" /><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Surname: </label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Surname" placeholder="Surname" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Password:</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="Password" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Email:</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Birth Date:</label>
+                </td>
+                <td>
+                    <input type="date" placeholder="Date" />
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="">Country:</label> </td>
+                <td>
+                    <select>
+                        <option hidden></option>
+                        <option>Greece</option>
+                        <option>Italy</option>
+                        <option>Japan</option>
+                        <option>China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Gender:</label>
+                </td>
+                <td>
+                    <label> <input type="radio" name="gender" value="male"> Male </label><br>
+                    <label><input type="radio" name="gender" value="female"> Female</label> <br>
+                    <label><input type="radio" name="gender" value="Other"> Other </label><br>
+                </td>
+            </tr>
+
+        </table>
+        <input id="submit" type="submit" value="Submit">
+    </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset id='fieldsetdown'>
+            <legend>
+                <h1 class="b-title">Leave a Comment:</h1>
+            </legend>
+            <br>
+            <textarea rows="6" cols="35"></textarea>
+            <br>
+
+            <input id="submit" type="submit" value="Send" />
+
+        </fieldset>
+    </form>
+</body>
+
+
+</html>

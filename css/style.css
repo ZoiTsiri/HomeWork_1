@@ -1,0 +1,54 @@
+.content-title {
+color: #ffffff;
+padding-left: inherit;
+}
+
+label {
+    font-size: 18px;
+}
+
+h4{
+    color: #ffffff;
+}
+
+body{
+background-color: #1b1b1b;
+margin-left: 300pt;
+
+}
+
+
+#fieldsetup {
+    background-color:#424242;
+    width: 40%;
+    padding-left: 60pt;
+    
+}
+
+#submit { 
+width: 30%;
+
+}
+
+#fieldsetdown{
+    background-color:#424242;
+    width: 40%;
+    padding-left: 60pt;
+    
+
+}
+td{ 
+    
+    font-size: 16pt;
+    
+    
+
+}
+
+.b-title {
+    color: #ffffff;
+}
+
+label{
+    color: #ffffff;
+}
